@@ -1,0 +1,35 @@
+body {
+    font-family: helvetica;
+    margin: 0;
+}
+
+td{
+    padding: 6px 0;
+}
+
+.employee-form {
+    /* flex property to align content in center */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+#submit-btn {
+    width: 100px;
+    height: 42px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
